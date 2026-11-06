@@ -1,0 +1,46 @@
+
+# Python
+.venv/
+venv/
+venv*/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Visual Studio / VB.NET
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.cache
+*.pdb
+*.exe
+*.dll
+
+# PLC / temporales
+*.bak
+*.tmp
+*.log
+*.old
+
+# Configuración privada
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.key
+*.pem
+
+# Datos y respaldos locales
+*.db
+*.sqlite
+*.sqlite3
+*.bak.sql
+*.dump
